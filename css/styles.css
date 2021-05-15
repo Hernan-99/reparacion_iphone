@@ -1,0 +1,154 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: #FFF;
+    font-size: 16px;
+    margin: 0px;
+}
+
+.navbar{
+    background: rgb(255, 255, 255);
+}
+
+.nav-link{
+    color: #000;
+    font-size: 1.4em;
+    border-bottom: 2px solid transparent;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+.nav-link:hover{
+    color: rgb(58, 58, 58);
+    border-bottom: 2px solid rgba(27, 27, 27, 0.5);
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+h1{
+    font-size: 4.125em;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.pincipal{
+ font-size: 1.125;
+ line-height: 1.8;
+ margin-bottom: 0;
+ color: rgb(255, 255, 255);   
+ text-align: center;
+}
+h2{
+    font-size: 3em;
+    color: rgb(22, 22, 22,);
+    margin-top: 10px;
+}
+p{
+    font-size: 1.5em;
+    line-height: 1.3;
+    color: rgb(59, 59, 59);
+    margin-top: 30px;
+}
+
+#hero{
+    background-image: url(../imagenes/iphonerepair1.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-bottom: 90px;
+    min-height: 450px;
+    color: #fff;
+}
+
+.contenedorTexto .quienesSomos{
+    text-decoration: underline;
+}
+
+.contenedorTexto .nuestrosServicios{
+    text-decoration: underline;
+}
+.contenedor{
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.card p{
+    color: #FFF;
+}
+
+.img{
+    background: rgb(245, 245, 245);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    padding-bottom: 90px;
+    min-height: 450px;
+    color: #fff;
+}
+
+.contenedorTexto{
+    padding: 60px;
+    max-width: 800px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.contenedorTexto h2, p{
+    color: rgb(88, 88, 88);
+}
+
+.tituloContacto{
+    color: rgb(88, 88, 88);
+}
+
+.contacto{
+    text-align: center;
+}
+
+.form-group{
+    margin-bottom: 5px;
+}
+
+label{
+    display: inline-block;
+}
+
+.form-control{
+    width: 100%;
+}
+
+textarea{
+    resize: none;
+}
+
+.btn{
+    background: rgb(22, 110, 192);
+    font-size: 1em;
+    padding: 5px 30px;
+    color: #fff;
+}
+.btn:hover{
+    background: rgb(21, 85, 146);
+    color: #fff;
+}
+
+.footer{
+    background: rgb(16, 58, 58);
+    height: 150px;
+}
+
+.footer p{
+    font-size: 1em;
+}
